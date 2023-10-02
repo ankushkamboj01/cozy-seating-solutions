@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.container {
+    width: 1300px;
+    margin: 0 auto;
+  }
+body{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+/* Style for header  */
+header{
+
+    margin-top: 20px;
+}
+.logo{
+    width: 180px;
+    border-radius: 50%;
+    float: left;
+}
+.main-heading{
+    font-size: 70px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.sub-heading{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 320px;
+}
+.main{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+/* Style for section 1 */
+.main-section{
+    margin-top: 100px;
+    padding: 5px;
+    font-size: 20px;
+    line-height: 1.4;
+} 
+.image1{
+    float: right;
+    width: 500px;
+    border-radius: 30px;
+    margin-left: 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+/* style for shop now button */
+.button{
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 500;
+    border-radius: 100px;
+  }
+  
+  .button:hover,
+  .btn:active {
+    background-color: #099268;
+  }
+  
+  .button--big {
+    font-size: 18px;
+    padding: 16px 32px;
+    margin-top: 58px;
+  }
+
+  /* style for product section */
+  .product-section{
+    margin-top: 200px;
+
+  }
+  .product-section>h1{
+    font-size: 40px;
+    font-weight:bolder;
+  }
+
+  /* style for product image */
+  .purchase>div>img{
+   width: 300px;
+   height: 250px;
+   border-radius: 20px 20px  0 0;
+  }
+
+  /* Style for product container*/
+  .product{
+   background-color: white;
+   display: inline-block;
+   margin: 62px;
+   width: 300px;
+   height: 500px;
+   border-radius: 20px ;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+  }
+/* Style for the product-details container */
+.product-details {
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* Style for the product name */
+.product-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style for the comfort level */
+.product-comfort {
+    font-style: italic;
+    color: #888;
+    margin: 5px 0;
+}
+
+/* Style for the price */
+.product-price {
+    font-size: 18px;
+    color: #ff6600;
+    margin: 10px 0;
+}
+
+/* Style for additional features */
+.product-feature {
+    margin: 5px 0;
+}
+
+/* Style for the product-buttons container */
+.product-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+/* Style for the "Add to Cart" button */
+.add-to-cart-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the "Buy Now" button */
+.buy-now-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buy-now-button:hover {
+    background-color: #1f8c3e;
+}
+
+/* Load more section */
+.load-more{
+    text-align: center;
+    margin: 50px;
+}
+.load-more>p:hover{
+    cursor: pointer;
+}
+
+/* footer section */
+footer>p{
+    text-align: center;
+}
